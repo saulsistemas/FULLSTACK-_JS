@@ -8,6 +8,8 @@ for(var i =0; i<cajas.length;i++){
     cajas[i].style.height ="200px";
     cajas[i].style.background ="blue";
     cajas[i].style.margin ="1px";
+    cajas[i].style.marginRigth ="5px";
+    cajas[i].style.display ="inline-block";
     console.log("For => " ,i);
 }
 
